@@ -171,17 +171,18 @@ li { margin-bottom: 6px; }
 }
 
 .pub {
-  margin-bottom: 22px;
-  padding-bottom: 18px;
-  border-bottom: 1px solid var(--rule);
+  margin-bottom: 24px;
+  padding: 20px 24px 22px;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
 }
-.pub:last-child { border-bottom: none; }
+.pub:last-child { margin-bottom: 0; }
 
 .pub-figure {
   display: block;
   max-width: 100%;
-  width: 320px;
-  height: auto;
+  height: 260px;
+  width: auto;
   margin: 14px auto 4px;
   background: var(--bg);
 }
@@ -250,4 +251,5 @@ embed.cv-embed {
   .site-header { padding-top: 32px; }
   .intro { flex-direction: column; }
   .intro-photo img { width: 128px; height: 128px; }
+  .pub-figure { height: auto; width: 100%; }
 }

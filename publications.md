@@ -8,7 +8,7 @@ permalink: /publications/
 
 <div class="pub">
   <p class="pub-authors"><span class="me">S. Bessa</span>, P.-E. Mazare, G. Szilvasy, H. Touvron, D. Picard, M. Douze, H. Jégou</p>
-  <p class="entry-title"><i>e</i>-means</p>
+  <p class="entry-title"><i>e</i>-means: Outperforming k-means (in One-Tenth the Epochs)</p>
   <p class="entry-venue">ICLR 2027 (submission)</p>
   <p class="entry-meta"><a href="https://openreview.net/pdf?id=pt14gnV3dl">PDF (OpenReview)</a></p>
 </div>
