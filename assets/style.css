@@ -103,6 +103,13 @@ li { margin-bottom: 6px; }
 
 .muted { color: var(--muted); }
 
+.tagline {
+  font-family: var(--mono);
+  font-size: 14px;
+  color: var(--accent);
+  margin: 6px 0 16px;
+}
+
 /* Home / intro */
 .intro {
   display: flex;
