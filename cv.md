@@ -34,7 +34,7 @@ permalink: /cv/
 <div class="entry">
   <p class="entry-title">PhD Student — FAIR (Meta) &amp; Ecole Nationale des Ponts et Chaussées</p>
   <p class="entry-meta">Jun. 2026 – Present</p>
-  <p>Learned and adaptive partitioning for large-scale vector search.</p>
+  <p>Large-scale clustering and vector search.</p>
 </div>
 
 <div class="entry">
