@@ -6,17 +6,17 @@ permalink: /publications/
 
 # Publications
 
-<div class="pub">
+<div class="pub pub-wide">
   <p class="pub-authors"><span class="me">S. Bessa</span>, P.-E. Mazare, G. Szilvasy, H. Touvron, D. Picard, M. Douze, H. Jégou</p>
   <p class="entry-title"><i>e</i>-means: Outperforming k-means (in One-Tenth the Epochs)</p>
   <p class="entry-venue">ICLR 2027 (submission)</p>
   <p class="entry-meta"><a href="https://openreview.net/pdf?id=pt14gnV3dl">PDF (OpenReview)</a></p>
-  <img class="pub-figure" src="{{ '/assets/emeans-anim.webp' | relative_url }}" alt="On a 2-D toy, e-means after 4 mini-batch epochs beats Lloyd's k-means after 25 epochs">
+  <img class="pub-hero" src="{{ '/assets/emeans-anim.webp' | relative_url }}" alt="On a 2-D toy, e-means after 4 mini-batch epochs beats Lloyd's k-means after 25 epochs">
 </div>
 
 <div class="pub">
   <p class="pub-authors"><span class="me">S. Bessa</span>, P. Fernandez, G. Szilvasy, M. Douze, H. Jégou</p>
-  <p class="entry-title">Cluster with Auctions for Vector Search</p>
+  <p class="entry-title">Cluster with Auctions for Vector Search<img class="entry-logo" src="{{ '/assets/cwa-logo.png' | relative_url }}" alt="CwA logo: an auction gavel fanned by colored cluster graphs"></p>
   <p class="entry-venue">NeurIPS 2026</p>
   <p class="entry-meta"><a href="https://arxiv.org/abs/2607.13728">arXiv:2607.13728</a></p>
   <img class="pub-figure" src="{{ '/assets/cwa-figure.png' | relative_url }}" alt="CwA alternates training the neural probing function and solving the auction assignment">
