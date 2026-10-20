@@ -45,14 +45,14 @@ permalink: /cv/
 
 <div class="entry">
   <p class="entry-title">Research Intern — CORAIL Research Group, Polytechnique Montréal</p>
-  <p class="entry-meta">Mar. 2024 – Aug. 2024 · Supervised by Prof. Quentin Cappart &amp; Prof. Louis-Martin Rousseau</p>
-  <p>Learning multipliers for Lagrangian Decomposition — a general and efficient bounding framework in Constraint Programming. First co-author paper accepted at AAAI 2025.</p>
+  <p class="entry-meta">Mar. 2024 – Aug. 2024</p>
+  <p>Learning multipliers for Lagrangian Decomposition in Constraint Programming (AAAI 2025).</p>
 </div>
 
 <div class="entry">
-  <p class="entry-title">Intern, Precision Oncology — Bioinformatics — Sanofi R&amp;D</p>
+  <p class="entry-title">Intern, Bioinformatics — Sanofi R&amp;D</p>
   <p class="entry-meta">Jun. 2023 – Aug. 2023</p>
-  <p>Bulk RNA-seq data analysis; benchmarked methods for inferring cell type membership on TCGA / Human Cell Atlas.</p>
+  <p>Analysis of bulk RNA-seq in the Precision Oncology department.</p>
 </div>
 
 ## Publications

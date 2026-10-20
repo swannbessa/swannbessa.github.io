@@ -112,8 +112,8 @@ li { margin-bottom: 6px; }
 }
 
 .intro-photo img {
-  width: 128px;
-  height: 128px;
+  width: 168px;
+  height: 168px;
   object-fit: cover;
   border-radius: 6px;
   border: 1px solid var(--rule);
@@ -225,5 +225,5 @@ embed.cv-embed {
   body { font-size: 17px; }
   .site-header { padding-top: 32px; }
   .intro { flex-direction: column; }
-  .intro-photo img { width: 96px; height: 96px; }
+  .intro-photo img { width: 128px; height: 128px; }
 }
