@@ -180,13 +180,10 @@ li { margin-bottom: 6px; }
 .pub-figure {
   display: block;
   max-width: 100%;
-  width: 480px;
+  width: 320px;
   height: auto;
-  margin: 16px auto 4px;
-  border: 1px solid var(--rule);
-  border-radius: 6px;
-  background: #fff;
-  padding: 10px;
+  margin: 14px auto 4px;
+  background: var(--bg);
 }
 
 .pub-authors { color: var(--muted); font-size: var(--fs-base); }
