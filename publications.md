@@ -11,6 +11,7 @@ permalink: /publications/
   <p class="entry-title"><i>e</i>-means: Outperforming k-means (in One-Tenth the Epochs)</p>
   <p class="entry-venue">ICLR 2027 (submission)</p>
   <p class="entry-meta"><a href="https://openreview.net/pdf?id=pt14gnV3dl">PDF (OpenReview)</a></p>
+  <img class="pub-gif" src="{{ '/assets/emeans-anim.gif' | relative_url }}" alt="On a 2-D toy, e-means after 4 mini-batch epochs beats Lloyd's k-means after 25 epochs">
 </div>
 
 <div class="pub">
