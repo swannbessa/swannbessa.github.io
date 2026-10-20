@@ -6,13 +6,12 @@ title: Home
 <div class="intro">
   <div class="intro-photo">
     <img src="{{ '/assets/photo.jpg' | relative_url }}" alt="Photo of Swann Bessa">
+    <p class="tagline">// i like to cluster stuff</p>
   </div>
   <div class="intro-text">
-    <p class="lede">I'm a PhD student at FAIR (Meta) and Ecole Nationale des Ponts et Chaussées, working on clustering and vector search — specifically learned and adaptive partitioning methods for large-scale nearest-neighbor retrieval.</p>
+    <p>I'm a PhD student at FAIR (Meta) and Ecole Nationale des Ponts et Chaussées, working on large-scale clustering and vector search.</p>
 
-    <p class="tagline">// i like to cluster stuff</p>
-
-    <p>Before my PhD I completed an MSc in Advanced Computer Science at the University of Oxford, and the Cycle Ingénieur (MSc) at Ecole Polytechnique. I've interned at FAIR under Dr. Matthijs Douze, and previously at the CORAIL research group (Polytechnique Montréal) on constraint programming.</p>
+    <p>Before my PhD I completed an MSc in Advanced Computer Science at the University of Oxford, and the Cycle Ingénieur (MSc) at Ecole Polytechnique. I've interned at FAIR under Dr. Matthijs Douze, and previously at the CORAIL research group (Polytechnique Montréal) on combinatorial optimization.</p>
 
     <p>My research interests sit at the intersection of machine learning and combinatorial/algorithmic problems — currently vector search and clustering at scale, previously Lagrangian decomposition and constraint programming.</p>
 
