@@ -177,6 +177,18 @@ li { margin-bottom: 6px; }
 }
 .pub:last-child { border-bottom: none; }
 
+.pub-figure {
+  display: block;
+  max-width: 100%;
+  width: 480px;
+  height: auto;
+  margin: 16px auto 4px;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: #fff;
+  padding: 10px;
+}
+
 .pub-authors { color: var(--muted); font-size: var(--fs-base); }
 .pub-authors .me { color: var(--text); font-weight: 600; }
 

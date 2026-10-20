@@ -14,14 +14,12 @@ permalink: /cv/
 
 <div class="entry">
   <p class="entry-title">MSc in Advanced Computer Science — University of Oxford</p>
-  <p class="entry-meta">2024 – 2025</p>
-  <p>Geometric Deep Learning, Uncertainty in Deep Learning, Graph Representation Learning, Bayesian Probabilistic Programming, Computer Vision.</p>
+  <p class="entry-meta">2024 – 2025 · Distinction</p>
 </div>
 
 <div class="entry">
   <p class="entry-title">Cycle Ingénieur (MSc) — Ecole Polytechnique</p>
   <p class="entry-meta">2021 – 2024 · GPA 3.97 · Ranked 1/897 nationwide in the entrance exam ("Major")</p>
-  <p>Foundations of Machine Learning, Deep Learning, Natural Language Processing, Reinforcement Learning, Computational Learning Theory, Statistics, Optimization and Control, Monte Carlo methods.</p>
 </div>
 
 <div class="entry">
@@ -62,19 +60,16 @@ See the dedicated [Publications]({{ '/publications/' | relative_url }}) page.
 ## Research reports
 
 <div class="entry">
-  <p class="entry-title">Deep Reinforcement Learning Project — Ecole Polytechnique</p>
-  <p class="entry-meta">Dec. 2023 – Mar. 2024</p>
+  <p class="entry-title"><a href="https://github.com/swannbessa/ProjectsPolytechnique/tree/main/SnakeRL">Deep Reinforcement Learning Project — Ecole Polytechnique</a></p>
   <p>Trained an efficient Snake agent under limited information and compute; generalized to larger grids by reusing convolutional layers.</p>
 </div>
 
 <div class="entry">
-  <p class="entry-title">Algorithmic Fairness in the COMPAS Case — Ecole Polytechnique</p>
-  <p class="entry-meta">Sep. 2023 – Dec. 2023 · Prof. Jean-Michel Loubes</p>
+  <p class="entry-title"><a href="https://github.com/swannbessa/ProjectsPolytechnique/tree/main/FairnessCOMPAS">Algorithmic Fairness in the COMPAS Case — Ecole Polytechnique</a></p>
   <p>Reviewed fairness metrics in ML; trained a modified COMPAS algorithm with improved fairness at similar accuracy.</p>
 </div>
 
 <div class="entry">
-  <p class="entry-title">Mining, Learning and Reasoning on Web Graphs — INRIA</p>
-  <p class="entry-meta">Feb. 2023 – Apr. 2023 · Prof. Pierre Bourhis</p>
+  <p class="entry-title"><a href="https://github.com/swannbessa/ProjectsPolytechnique/tree/main/GraphsClustering">Mining, Learning and Reasoning on Web Graphs — INRIA</a></p>
   <p>Clustered articles about hate crimes in the US using graph clustering, NLP and information extraction.</p>
 </div>

@@ -6,7 +6,7 @@ title: Home
 <div class="intro">
   <div class="intro-photo">
     <img src="{{ '/assets/photo.jpg' | relative_url }}" alt="Photo of Swann Bessa">
-    <p class="tagline">// i like to cluster stuff</p>
+    <p class="tagline">i like to cluster stuff</p>
   </div>
   <div class="intro-text">
     <p>I'm a PhD student at FAIR (Meta) and Ecole Nationale des Ponts et Chaussées, working on large-scale clustering and vector search.</p>
@@ -29,4 +29,5 @@ title: Home
 - **2026** — "Cluster with Auctions for Vector Search" accepted at NeurIPS 2026.
 - **2026 (Jun.)** — Started my PhD at FAIR & Ecole des Ponts, on large-scale clustering and vector search.
 - **2025 (Aug.)** — Finished my MSc in lovely Oxford. Leaving great memories behind at St Hilda's College.
+- **2025 (Jun.)** — Excited to join Meta FAIR for a research internship under Matthijs Douze and Hervé Jégou.
 - **2025** — "Learning Valid Dual Bounds in Constraint Programming" accepted at AAAI 2025.
