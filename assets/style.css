@@ -156,11 +156,11 @@ li { margin-bottom: 6px; }
 }
 
 .entry-logo {
-  height: 22px;
+  height: 19px;
   width: auto;
   vertical-align: middle;
   margin-left: 8px;
-  margin-top: -3px;
+  margin-top: -2px;
 }
 
 .entry-meta {
@@ -187,11 +187,12 @@ li { margin-bottom: 6px; }
 }
 .pub:last-child { margin-bottom: 0; }
 
+/* Bleeds to the full page width (flush with the header/footer rule),
+   instead of the card's normal inset width — contained by the page,
+   never the viewport. */
 .pub-wide {
-  width: 880px;
-  max-width: 94vw;
-  margin-left: 50%;
-  transform: translateX(-50%);
+  margin-left: -24px;
+  margin-right: -24px;
 }
 
 .pub-figure {

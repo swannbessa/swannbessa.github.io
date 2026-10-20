@@ -11,7 +11,7 @@ title: Home
   <div class="intro-text">
     <p>I'm a PhD student at FAIR (Meta) and Ecole Nationale des Ponts et Chaussées, working on large-scale clustering and vector search.</p>
 
-    <p>Before my PhD I completed an MSc in Advanced Computer Science at the University of Oxford, and the Cycle Ingénieur (MSc) at Ecole Polytechnique. I've interned at FAIR under Dr. Matthijs Douze, and previously at the CORAIL research group (Polytechnique Montréal) on combinatorial optimization.</p>
+    <p>Before my PhD I completed an MSc in Advanced Computer Science at the University of Oxford, and the Cycle Ingénieur (MSc) at Ecole Polytechnique. I've interned at FAIR under Dr. Matthijs Douze and Hervé Jégou, and previously at the CORAIL research group (Polytechnique Montréal) on combinatorial optimization.</p>
 
     <p>My research interests sit at the intersection of machine learning and combinatorial/algorithmic problems — currently clustering and vector search at scale.</p>
 
