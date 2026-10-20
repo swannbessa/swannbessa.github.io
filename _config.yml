@@ -1,0 +1,19 @@
+title: Swann Bessa
+description: PhD student, FAIR & Ecole des Ponts — large-scale vector search
+url: "https://bessa75.github.io"
+baseurl: ""
+
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+author:
+  name: Swann Bessa
+  email: swann@meta.com
+  github: https://github.com/bessa75
+  scholar: https://scholar.google.fr/citations?user=IJrVw5QAAAAJ
+
+# No external theme — fully custom minimal layout in _layouts/ + assets/style.css
+plugins: []
+
+exclude:
+  - README.md
