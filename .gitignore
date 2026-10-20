@@ -4,3 +4,6 @@ _site/
 .jekyll-metadata
 vendor/
 .bundle/
+
+# Scratch tooling used to render/screenshot design previews — not part of the site
+_shoot/

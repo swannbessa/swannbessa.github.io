@@ -27,7 +27,7 @@ title: Home
 
 ## News
 
-- **2026 (Aug.)** — Finished my MSc in lovely Oxford. Leaving great memories behind at St Hilda's College.
 - **2026** — "Cluster with Auctions for Vector Search" accepted at NeurIPS 2026.
 - **2026 (Jun.)** — Started my PhD at FAIR & Ecole des Ponts, on learned and adaptive partitioning for large-scale vector search.
+- **2025 (Aug.)** — Finished my MSc in lovely Oxford. Leaving great memories behind at St Hilda's College.
 - **2025** — "Learning Valid Dual Bounds in Constraint Programming" accepted at AAAI 2025.
