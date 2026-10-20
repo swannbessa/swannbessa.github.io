@@ -19,7 +19,8 @@ permalink: /cv/
 
 <div class="entry">
   <p class="entry-title">Cycle Ingénieur (MSc) — Ecole Polytechnique</p>
-  <p class="entry-meta">2021 – 2024 · GPA 3.97 · Ranked 1/897 nationwide in the entrance exam ("Major")</p>
+  <p class="entry-meta">2021 – 2024 · GPA 3.97</p>
+  <p><strong>Ranked 1/897 nationwide in the entrance exam ("Major")</strong></p>
 </div>
 
 <div class="entry">
@@ -37,14 +38,14 @@ permalink: /cv/
 
 <div class="entry">
   <p class="entry-title">Research Intern — FAIR (Meta)</p>
-  <p class="entry-meta">Sep. 2025 – Mar. 2026 · Supervised by Dr. Matthijs Douze</p>
-  <p>Cluster with Auctions for Nearest Neighbor Search.</p>
+  <p class="entry-meta">Sep. 2025 – Mar. 2026 · Supervised by Dr. Matthijs Douze and Hervé Jégou</p>
+  <p>"Cluster with Auctions for Vector Search" (NeurIPS 2026).</p>
 </div>
 
 <div class="entry">
   <p class="entry-title">Research Intern — CORAIL Research Group, Polytechnique Montréal</p>
   <p class="entry-meta">Mar. 2024 – Aug. 2024</p>
-  <p>Learning multipliers for Lagrangian Decomposition in Constraint Programming (AAAI 2025).</p>
+  <p>"Learning Valid Dual Bounds in Constraint Programming: Boosted Lagrangian Decomposition with Self-Supervised Learning" (AAAI 2025).</p>
 </div>
 
 <div class="entry">
@@ -65,11 +66,11 @@ See the dedicated [Publications]({{ '/publications/' | relative_url }}) page.
 </div>
 
 <div class="entry">
-  <p class="entry-title"><a href="https://github.com/swannbessa/ProjectsPolytechnique/tree/main/FairnessCOMPAS">Algorithmic Fairness in the COMPAS Case — Ecole Polytechnique</a></p>
+  <p class="entry-title">(Written in French) <a href="https://github.com/swannbessa/ProjectsPolytechnique/tree/main/FairnessCOMPAS">Algorithmic Fairness in the COMPAS Case — Ecole Polytechnique</a></p>
   <p>Reviewed fairness metrics in ML; trained a modified COMPAS algorithm with improved fairness at similar accuracy.</p>
 </div>
 
 <div class="entry">
-  <p class="entry-title"><a href="https://github.com/swannbessa/ProjectsPolytechnique/tree/main/GraphsClustering">Mining, Learning and Reasoning on Web Graphs — INRIA</a></p>
+  <p class="entry-title">(Written in French) <a href="https://github.com/swannbessa/ProjectsPolytechnique/tree/main/GraphsClustering">Mining, Learning and Reasoning on Web Graphs — INRIA</a></p>
   <p>Clustered articles about hate crimes in the US using graph clustering, NLP and information extraction.</p>
 </div>
