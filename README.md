@@ -1,4 +1,4 @@
-# bessa75.github.io
+# swannbessa.github.io
 
 Personal academic website, built as a plain Jekyll site (custom minimal layout,
 no external theme). GitHub Pages builds and serves it automatically — no CI
@@ -32,7 +32,7 @@ Then open http://localhost:4000.
 
 ## Deploy
 
-Push to the `main` branch of `bessa75/bessa75.github.io` on GitHub, enable
-GitHub Pages in the repo settings (Settings → Pages → Source: `main` branch,
-`/ (root)`), and the site is live at https://bessa75.github.io within a
-minute or two.
+Push to the `master` branch of `swannbessa/swannbessa.github.io` on GitHub,
+enable GitHub Pages in the repo settings (Settings → Pages → Source: `master`
+branch, `/ (root)`), and the site is live at https://swannbessa.github.io
+within a minute or two.
