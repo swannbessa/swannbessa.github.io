@@ -11,7 +11,7 @@ My hobbies are as standard as it gets: football (soccer), gym, old school rap mu
 <div class="photo-grid">
   <figure>
     <img src="{{ '/assets/travel-registan.jpg' | relative_url }}" alt="The Registan in Samarkand, Uzbekistan">
-    <figcaption>The Registan in Samarkand, Uzbekistan.</figcaption>
+    <figcaption>The Registan in Samarkand, Uzbekistan. Ngl these turquoise domes are really cool.</figcaption>
   </figure>
   <figure>
     <img src="{{ '/assets/travel-thailand.jpg' | relative_url }}" alt="With friendly locals at a market in Chiang Mai, Thailand">
