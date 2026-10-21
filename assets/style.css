@@ -187,12 +187,12 @@ li { margin-bottom: 6px; }
 }
 .pub:last-child { margin-bottom: 0; }
 
-/* Bleeds slightly past the page's own edge (a touch wider than flush),
-   instead of the card's normal inset width — a deliberate, modest
-   breakout, never the full-viewport hero this used to be. */
+/* Wide enough to fit the three animation panels at a legible size without
+   wrapping or shrinking too far — a deliberate breakout past the page's
+   own edge, but still a normal bordered card, not a full-viewport hero. */
 .pub-wide {
-  margin-left: -46px;
-  margin-right: -46px;
+  margin-left: -220px;
+  margin-right: -220px;
 }
 
 .pub-figure {
@@ -204,14 +204,48 @@ li { margin-bottom: 6px; }
   background: var(--bg);
 }
 
-.pub-hero {
-  display: block;
-  width: 100%;
-  height: auto;
-  margin: 16px auto 4px;
+/* Live e-means animation widget */
+.widget-wrap {
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 18px;
   background: var(--bg);
-  border-radius: 6px;
+  margin: 16px 0 4px;
 }
+.widget-wrap .anim-row {
+  display: flex;
+  gap: 24px;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.widget-wrap .anim-row > div { min-width: 0; }
+.widget-wrap .anim-row canvas {
+  display: block;
+  border-radius: 4px;
+  max-width: 100%;
+  height: auto;
+}
+.widget-wrap .panel-title {
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+.widget-wrap .panel-title.ours { color: var(--accent); }
+.widget-wrap .readout {
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 8px;
+}
+.widget-wrap .controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
+  justify-content: center;
+}
+.widget-wrap .controls input[type=range] { flex: 0 0 320px; max-width: 70%; }
 
 .pub-authors { color: var(--muted); font-size: var(--fs-base); }
 .pub-authors .me { color: var(--text); font-weight: 600; }
