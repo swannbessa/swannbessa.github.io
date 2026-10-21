@@ -27,7 +27,7 @@ permalink: /publications/
       </div>
       <div>
         <div class="panel-title" style="color:#55555a">Training MSE</div>
-        <canvas class="chart" width="360" height="380"></canvas>
+        <canvas class="chart" width="360" height="440"></canvas>
       </div>
     </div>
     <div class="controls">
