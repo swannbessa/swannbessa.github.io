@@ -11,7 +11,9 @@ permalink: /publications/
   <p class="entry-title"><i>e</i>-means: Outperforming k-means (in One-Tenth the Epochs)</p>
   <p class="entry-venue">ICLR 2027 (submission)</p>
   <p class="entry-meta"><a href="https://openreview.net/pdf?id=pt14gnV3dl">PDF (OpenReview)</a></p>
+  <p><i>e</i>-means is a modern optimization rule for k-means, built around mini-batches with an exponential moving average rule.</p>
   <img class="pub-hero" src="{{ '/assets/emeans-anim.webp' | relative_url }}" alt="On a 2-D toy, e-means after 4 mini-batch epochs beats Lloyd's k-means after 25 epochs">
+  <p class="entry-meta">2-D toy distribution adapted from Huy Vo's work on hierarchical k-means for data curation.</p>
 </div>
 
 <div class="pub">
