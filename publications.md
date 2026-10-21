@@ -21,7 +21,7 @@ permalink: /publications/
         <div class="readout" data-r="lloyd"></div>
       </div>
       <div>
-        <div class="panel-title ours">e-means (batch and step from the scaling laws)</div>
+        <div class="panel-title" style="color:#1f77b4">e-means (batch and step from the scaling laws)</div>
         <canvas class="right" width="380" height="380"></canvas>
         <div class="readout" data-r="ema"></div>
       </div>
@@ -36,8 +36,6 @@ permalink: /publications/
       <span class="val" style="font-size:0.85em;color:#55555a">0.0</span>
     </div>
   </div>
-  <p class="entry-meta">2-D toy distribution adapted from Huy Vo's work on hierarchical k-means for data curation. Gray dots are the data points; colored dots are the centroids. Lloyd moves once per epoch (the staircase); e-means moves roughly 176 times per epoch. Plays automatically and loops; drag the slider to scrub.</p>
-
   <script>
   (function () {
     "use strict";
