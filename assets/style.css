@@ -187,12 +187,12 @@ li { margin-bottom: 6px; }
 }
 .pub:last-child { margin-bottom: 0; }
 
-/* Bleeds to the full page width (flush with the header/footer rule),
-   instead of the card's normal inset width — contained by the page,
-   never the viewport. */
+/* Bleeds slightly past the page's own edge (a touch wider than flush),
+   instead of the card's normal inset width — a deliberate, modest
+   breakout, never the full-viewport hero this used to be. */
 .pub-wide {
-  margin-left: -24px;
-  margin-right: -24px;
+  margin-left: -46px;
+  margin-right: -46px;
 }
 
 .pub-figure {
@@ -278,4 +278,5 @@ embed.cv-embed {
   .intro { flex-direction: column; }
   .intro-photo img { width: 128px; height: 128px; }
   .pub-figure { height: auto; width: 100%; }
+  .pub-wide { margin-left: 0; margin-right: 0; }
 }
