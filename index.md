@@ -26,7 +26,7 @@ title: Home
 
 ## Outside of Research
 
-My hobbies are as standard as it gets: football (soccer), gym, old school rap music. I like geopolitics and history, in the Middle East in particular. I also like traveling — in particular I find solo traveling without any plans quite fun.
+My hobbies are as standard as it gets: football (soccer), gym, old school rap music. I like geopolitics and history, in the Middle East in particular. I also like traveling — especially solo traveling without any plans, which I find quite fun.
 
 <div class="photo-grid">
   <figure>
