@@ -105,6 +105,39 @@ li { margin-bottom: 6px; }
 
 .muted { color: var(--muted); }
 
+/* Travel photo grid (Outside of Research) */
+.photo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 20px 0 4px;
+}
+.photo-grid figure, .photo-solo {
+  margin: 0;
+}
+.photo-grid img, .photo-solo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid var(--rule);
+}
+.photo-grid figcaption, .photo-solo figcaption {
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  color: var(--muted);
+  margin-top: 6px;
+}
+.photo-solo {
+  width: calc(50% - 10px);
+  margin: 16px 0 4px;
+}
+@media (max-width: 520px) {
+  .photo-grid { grid-template-columns: 1fr; }
+  .photo-solo { width: 100%; }
+}
+
 /* Home / intro */
 .intro {
   display: flex;
