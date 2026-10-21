@@ -27,7 +27,7 @@ title: Home
 
 ## News
 
-- **2026 (Sep.)** — Submitted <i>e</i>-means to ICLR. Really proud of this work, k-means is very widely used in industrial applications, and e-means beats it in about 10x less epochs on a wide range of scales and datasets. Can't wait to release it publicly in early November.
+- **2026 (Sep.)** — Submitted e-means to ICLR. Really proud of this work, k-means is very widely used in industrial applications, and e-means beats it in about 10x less epochs on a wide range of scales and datasets. Can't wait to release it publicly in early November.
 - **2026** — "Cluster with Auctions for Vector Search" accepted at NeurIPS 2026.
 - **2026 (Jun.)** — Started my PhD at FAIR & Ecole des Ponts, on large-scale clustering and vector search.
 - **2025 (Sep.)** — Excited to join Meta FAIR for a research internship under Matthijs Douze and Hervé Jégou.

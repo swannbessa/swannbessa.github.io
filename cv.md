@@ -20,7 +20,7 @@ permalink: /cv/
 <div class="entry">
   <p class="entry-title">Cycle Ingénieur (MSc) — Ecole Polytechnique</p>
   <p class="entry-meta">2021 – 2024 · GPA 3.97</p>
-  <p class="highlight-note">Ranked 1/897 nationwide in the entrance exam ("Major")</p>
+  <p class="highlight-note">Ranked 1/897 nationwide in the entrance exam ("Major"), PSI track</p>
 </div>
 
 <div class="entry">

@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Hubs
-permalink: /hubs/
+title: Hobbies
+permalink: /hobbies/
 ---
 
 # Outside of Research
 
-My hobbies are as standard as it gets: football (soccer), gym, old school rap music. I like geopolitics and history, in the Middle East in particular. I also like traveling — especially solo traveling without any plans, which I find quite fun.
+My hobbies are as standard as it gets: football (soccer), gym, old school rap music. I like geopolitics and history, in the Middle East in particular. I also enjoy traveling — especially solo traveling without any plans, which I find quite fun.
 
 <div class="photo-grid">
   <figure>
