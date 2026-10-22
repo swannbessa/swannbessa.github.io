@@ -31,5 +31,5 @@ title: Home
 - **2026** — "Cluster with Auctions for Vector Search" accepted at NeurIPS 2026.
 - **2026 (Jun.)** — Started my PhD at FAIR & Ecole des Ponts, on large-scale clustering and vector search.
 - **2025 (Sep.)** — Excited to join Meta FAIR for a research internship under Matthijs Douze and Hervé Jégou.
-- **2025 (Aug.)** — Finished my MSc in lovely Oxford. Leaving great memories behind at St Hilda's College.
+- **2025 (Aug.)** — Finished my MSc at Oxford. Leaving great memories behind at St Hilda's College.
 - **2025** — "Learning Valid Dual Bounds in Constraint Programming" accepted at AAAI 2025.
