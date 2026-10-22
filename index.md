@@ -13,7 +13,7 @@ title: Home
 
     <p>Before my PhD I completed an MSc in Advanced Computer Science at the University of Oxford, and the Cycle Ingénieur (MSc) at Ecole Polytechnique. I've interned at FAIR under Matthijs Douze and Hervé Jégou, and previously at the CORAIL research group (Polytechnique Montréal) on combinatorial optimization.</p>
 
-    <p>My research interests sit at the intersection of machine learning and combinatorial/algorithmic problems — currently clustering and vector search at scale.</p>
+    <p>My research interests sit at the intersection of machine learning and combinatorial/algorithmic problems, currently clustering and vector search at scale.</p>
 
     <p>I'm always down for a chat, so feel free to reach out at <a href="mailto:swann@meta.com">swann [at] meta [dot] com</a>.</p>
 
