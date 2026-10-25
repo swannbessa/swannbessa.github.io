@@ -9,11 +9,9 @@ title: Home
     <p class="tagline">i like to cluster stuff</p>
   </div>
   <div class="intro-text">
-    <p>I'm a PhD student at FAIR (Meta) and Ecole Nationale des Ponts et Chaussées, working on large-scale clustering and vector search.</p>
+    <p>I'm a PhD student at FAIR (Meta) and Ecole Nationale des Ponts et Chaussées, working on large-scale clustering and vector search. My research interests sit at the intersection of machine learning and combinatorial/algorithmic problems.</p>
 
     <p>Before my PhD I completed an MSc in Advanced Computer Science at the University of Oxford, and the Cycle Ingénieur (MSc) at Ecole Polytechnique. I've interned at FAIR under Matthijs Douze and Hervé Jégou, and previously at the CORAIL research group (Polytechnique Montréal) on combinatorial optimization.</p>
-
-    <p>My research interests sit at the intersection of machine learning and combinatorial/algorithmic problems, currently clustering and vector search at scale.</p>
 
     <p>I'm always down for a chat, so feel free to reach out at <a href="mailto:swann@meta.com">swann [at] meta [dot] com</a>.</p>
 
