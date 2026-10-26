@@ -1,6 +1,8 @@
 ---
-layout: default
-title: "Dino10B README"
+layout: post
+title: "Dino10B: Nearest-Neighbor Search Dataset at 10 Billion Scale"
+authors: "Swann Bessa, Matthijs Douze, Hervé Jégou"
+date: 2026-10-26
 permalink: /blog/dino10b/readme/
 ---
 

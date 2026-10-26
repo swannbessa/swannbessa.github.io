@@ -3,6 +3,7 @@ layout: default
 ---
 <article class="post">
   <h1 class="post-title">{{ page.title }}</h1>
+  {% if page.authors %}<p class="post-authors" style="margin: 0 0 6px; font-weight: 500;">{{ page.authors }}</p>{% endif %}
   <p class="post-meta">{{ page.date | date: "%-d %B %Y" }}</p>
   <div class="post-content">
     {{ content }}
