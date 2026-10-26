@@ -40,23 +40,26 @@ body {
 /* Header */
 .site-header {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 8px 20px;
-  padding: 48px 0 20px;
+  gap: 12px 20px;
+  padding: 36px 0 18px;
   border-bottom: 1px solid var(--rule);
   margin-bottom: 40px;
 }
 
-.site-title {
-  font-family: var(--mono);
-  font-weight: 600;
-  font-size: var(--fs-md);
-  color: var(--text);
-  text-decoration: none;
-  letter-spacing: -0.01em;
+.site-logos {
+  display: flex;
+  align-items: center;
+  gap: 22px;
 }
+
+.site-logos a { border-bottom: none; line-height: 0; }
+.site-logos img { display: block; width: auto; }
+.site-logos .logo-fair { height: 16px; }
+.site-logos .logo-enpc { height: 50px; }
+.site-logos a + a { padding-left: 22px; border-left: 1px solid var(--rule); }
 
 .site-nav {
   font-family: var(--mono);
@@ -92,6 +95,7 @@ h1, h2, h3 {
 }
 
 h1 { font-size: var(--fs-h1); margin: 0 0 6px; }
+h1.home-name { font-family: var(--sans); font-size: 38px; letter-spacing: -0.02em; margin: 0 0 28px; }
 h2 { font-size: var(--fs-xs); text-transform: uppercase; letter-spacing: 0.06em; margin: 40px 0 14px; padding-bottom: 6px; border-bottom: 1px solid var(--rule); }
 h3 { font-size: var(--fs-md); margin: 24px 0 6px; }
 

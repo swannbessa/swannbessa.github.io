@@ -3,6 +3,8 @@ layout: default
 title: Home
 ---
 
+<h1 class="home-name">Swann Bessa</h1>
+
 <div class="intro">
   <div class="intro-photo">
     <img src="{{ '/assets/photo.jpg' | relative_url }}" alt="Photo of Swann Bessa">

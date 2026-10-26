@@ -13,7 +13,6 @@
 <body>
   <div class="page">
     <header class="site-header">
-      <a class="site-title" href="{{ '/' | relative_url }}">Swann Bessa</a>
       <nav class="site-nav">
         <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
         <a href="{{ '/publications/' | relative_url }}" {% if page.url == '/publications/' %}class="active"{% endif %}>Publications</a>
@@ -21,6 +20,10 @@
         <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>Blog</a>
         <a href="{{ '/hobbies/' | relative_url }}" {% if page.url == '/hobbies/' %}class="active"{% endif %}>Hobbies</a>
       </nav>
+      <div class="site-logos">
+        <a href="https://ai.meta.com/research/"><img class="logo-fair" src="{{ '/assets/meta-fair-logo.png' | relative_url }}" alt="Meta FAIR"></a>
+        <a href="https://www.ecoledesponts.fr/"><img class="logo-enpc" src="{{ '/assets/enpc-logo.png' | relative_url }}" alt="École nationale des ponts et chaussées"></a>
+      </div>
     </header>
 
     <main class="content">
