@@ -95,7 +95,7 @@ h1, h2, h3 {
 }
 
 h1 { font-size: var(--fs-h1); margin: 0 0 6px; }
-h1.home-name { font-family: var(--sans); font-size: 38px; letter-spacing: -0.02em; margin: 0 0 28px; }
+h1.home-name { font-family: var(--sans); font-size: 32px; letter-spacing: -0.02em; margin: -14px 0 18px; }
 h2 { font-size: var(--fs-xs); text-transform: uppercase; letter-spacing: 0.06em; margin: 40px 0 14px; padding-bottom: 6px; border-bottom: 1px solid var(--rule); }
 h3 { font-size: var(--fs-md); margin: 24px 0 6px; }
 
