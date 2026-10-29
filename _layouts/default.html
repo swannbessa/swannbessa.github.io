@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ page.description | default: site.description }}">
+  {% seo %}
+  <meta name="google-site-verification" content="yTHyRWaTTZuA3FcoU3ccZ0KfHeYscRMys9HIVx9Dm6k" />
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,8 +21,8 @@
         <a href="{{ '/hobbies/' | relative_url }}" {% if page.url == '/hobbies/' %}class="active"{% endif %}>Hobbies</a>
       </nav>
       <div class="site-logos">
-        <a href="https://ai.meta.com/research/"><img class="logo-fair" src="{{ '/assets/meta-fair-logo.png' | relative_url }}" alt="Meta FAIR"></a>
-        <a href="https://www.ecoledesponts.fr/"><img class="logo-enpc" src="{{ '/assets/enpc-logo.png' | relative_url }}" alt="École nationale des ponts et chaussées"></a>
+        <span><img class="logo-fair" src="{{ '/assets/meta-fair-logo.png' | relative_url }}" alt="Meta FAIR"></span>
+        <span><img class="logo-enpc" src="{{ '/assets/enpc-logo.png' | relative_url }}" alt="École nationale des ponts et chaussées"></span>
       </div>
     </header>
 

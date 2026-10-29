@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Swann Bessa
 ---
 
 <h1 class="home-name">Swann Bessa</h1>

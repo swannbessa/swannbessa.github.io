@@ -55,11 +55,11 @@ body {
   gap: 22px;
 }
 
-.site-logos a { border-bottom: none; line-height: 0; }
+.site-logos > span { border-bottom: none; line-height: 0; }
 .site-logos img { display: block; width: auto; }
 .site-logos .logo-fair { height: 16px; }
 .site-logos .logo-enpc { height: 50px; }
-.site-logos a + a { padding-left: 22px; border-left: 1px solid var(--rule); }
+.site-logos > span + span { padding-left: 22px; border-left: 1px solid var(--rule); }
 
 .site-nav {
   font-family: var(--mono);

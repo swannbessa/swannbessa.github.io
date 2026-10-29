@@ -12,8 +12,16 @@ author:
   github: https://github.com/swannbessa
   scholar: https://scholar.google.fr/citations?user=IJrVw5QAAAAJ
 
+social:
+  name: Swann Bessa
+  links:
+    - https://github.com/swannbessa
+    - https://scholar.google.fr/citations?user=IJrVw5QAAAAJ
+
 # No external theme — fully custom minimal layout in _layouts/ + assets/style.css
-plugins: []
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 exclude:
   - README.md
