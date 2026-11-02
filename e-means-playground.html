@@ -181,7 +181,6 @@ code{font-family:"SF Mono","Menlo","Consolas",monospace; background:#f4f4f6;
 /* ===== Phones, tablets and touch screens. Every rule that changes the page is inside a media query that a
    desktop browser (fine pointer, wider than 600 px) does not match, so desktops render exactly as before. ===== */
 .lbl{display:contents;}          /* label text wrapper: invisible on desktop, a grid cell on phones */
-.touch-note{display:none;}       /* the note on phone limits, shown on touch screens only */
 
 /* --- Touch screens (a finger is the main pointer): targets of at least 44 px, and 16 px text in the form
    fields so that iOS does not zoom the page in when one is tapped (pinch-zoom stays available). --- */
@@ -202,7 +201,6 @@ code{font-family:"SF Mono","Menlo","Consolas",monospace; background:#f4f4f6;
       #aac6e0 0 calc(13px + (100% - 26px) * var(--bf) + 13px * var(--be)), #e6e7ea 0) center / 100% 6px no-repeat;}
   .slider-col input[type=range]::-moz-range-thumb{width:26px; height:26px;}
   .slider-col input[type=range]::-webkit-slider-thumb{width:26px; height:26px; margin-top:-10px;}
-  .touch-note{display:block;}
 }
 
 /* --- Below 940 px the Paper menu (680 px wide, anchored at its link) runs off the right edge: open both menus
@@ -451,11 +449,6 @@ code{font-family:"SF Mono","Menlo","Consolas",monospace; background:#f4f4f6;
 low-dimensional data such as these 2-D sets revival degrades its results. Lloyd still re-seeds
 empty clusters as usual. Initialization is done with random sampling from the dataset.
 The batch size used is B/8, where B is the batch given by the default scaling law.</p>
-<p class="footnote touch-note">On phones and tablets this page keeps runs small, so that the tab
-fits in a phone's memory and a run takes about a minute: <i class="math">n</i> stops at about 300,000 points, a
-run may do at most 3 times the work of the default one (<i class="math">n</i> &times; <i class="math">k</i>
-&times; all epochs up to 4.5 billion), and training uses at most 4 threads. None of this changes the results.
-For bigger runs, use a computer.</p>
 
 <script>
 "use strict";
@@ -2062,12 +2055,6 @@ function rowsGenerated(dist, N, k) {
   return N;
 }
 
-// Phones and tablets: n stops at the slider's last position, 10^5.47, so that the tab fits in a phone's memory
-// (an audit measured 340-506 MB at 300,000 points against 700-900 MB at 1,000,000), and a run may do at most 3 times
-// the default's work, n x k x (e-means + Lloyd epochs) = 1.5e9, so that it takes about a minute on a
-// mid-range phone (the default took 22 s on an emulated one). Larger settings are refused, never changed.
-const TOUCH_MAX_N = Math.round(Math.pow(10, 5.47));
-const TOUCH_DEFAULT_WORK = 100000 * 500 * (5 + 25), TOUCH_MAX_WORK = 3 * TOUCH_DEFAULT_WORK;
 async function startNewRun() {
   const K = parseInt(document.getElementById("paramK").value, 10);
   const epochsEma = parseInt(document.getElementById("paramEpochs").value, 10);
@@ -2099,21 +2086,6 @@ async function startNewRun() {
   if (!(itersLloyd >= 1 && itersLloyd <= 1000)) {
     settingsError("Lloyd epochs must be between 1 and 1000.");
     return;
-  }
-  // phones and tablets: memory and time limits, stated in the note at the bottom of the page
-  if (TOUCH_DEVICE) {
-    const work = n * K * (epochsEma + itersLloyd), times = work / TOUCH_DEFAULT_WORK;
-    if (n > TOUCH_MAX_N) {
-      settingsError("On a phone or tablet 𝑛 stops at " + TOUCH_MAX_N.toLocaleString("en-US")
-        + " points (memory). Use a computer for more.");
-      return;
-    }
-    if (work > TOUCH_MAX_WORK) {
-      settingsError("On a phone or tablet a run may do at most 3 times the work of the default one "
-        + "(𝑛 × 𝑘 × all epochs up to 4.5 billion); these settings are "
-        + times.toFixed(1) + " times the default. Lower 𝑛, 𝑘 or the epochs, or use a computer.");
-      return;
-    }
   }
   // at least one point must be left over for the held-out test set
   if (rowsGenerated(dist, n + heldOutCount(n), K) <= n) {
@@ -2227,7 +2199,6 @@ function wireLogSlider(rangeId, valId, hiddenId) {
   r.addEventListener("input", update);
   update();
 }
-if (TOUCH_DEVICE) document.getElementById("genNlog").max = "5.47";
 wireLogSlider("genNlog", "genNval", "genN");
 wireLogSlider("paramKlog", "paramKval", "paramK");
 // The k slider has step="any" so that the mouse reaches every integer k, which makes the arrow keys jump a
