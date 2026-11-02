@@ -25,3 +25,11 @@ plugins:
 
 exclude:
   - README.md
+
+# The e-means playground (e-means-playground.html) is published but unlisted: nothing on the site links to it,
+# and this keeps it out of sitemap.xml too. Delete this block to list it.
+defaults:
+  - scope:
+      path: "e-means-playground.html"
+    values:
+      sitemap: false
