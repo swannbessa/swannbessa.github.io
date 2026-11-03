@@ -355,7 +355,6 @@ code{font-family:"SF Mono","Menlo","Consolas",monospace; background:#f4f4f6;
       <option value="sierpinski">Sierpinski triangle</option>
       <option value="olympic_rings">Olympic rings</option>
       <option value="lissajous">Lissajous curve</option>
-      <option value="galaxy">Galaxy</option>
       <option value="flower">Flower</option>
       </optgroup>
       <optgroup label="Clustered shapes">
@@ -769,16 +768,6 @@ function genLissajous(n, k, d, seed) {
   }
   return padRows(rng, rows, 2, d);
 }
-function genGalaxy(n, k, d, seed) {
-  const rng = mulberry32(seed), c = splitCounts(n, [3, 7]), rows = [];
-  for (let i = 0; i < c[0]; i++) rows.push([gaussian(rng) * 0.15, gaussian(rng) * 0.15]);
-  for (let i = 0; i < c[1]; i++) {
-    const t = rng() * 2.5 * Math.PI, r = 0.15 * Math.exp(0.25 * t), a = t + Math.floor(rng() * 2) * Math.PI;
-    const s = 0.03 + 0.04 * r;
-    rows.push([r * Math.cos(a) + gaussian(rng) * s, r * Math.sin(a) + gaussian(rng) * s]);
-  }
-  return padRows(rng, rows, 2, d);
-}
 function genFlower(n, k, d, seed) {
   const rng = mulberry32(seed);
   const rows = rejection(n, rng, () => [rng() * 2 - 1, rng() * 2 - 1],
@@ -810,7 +799,6 @@ const GENERATORS = {
   sierpinski: genSierpinski,
   olympic_rings: genOlympicRings,
   lissajous: genLissajous,
-  galaxy: genGalaxy,
   flower: genFlower,
 };
 
